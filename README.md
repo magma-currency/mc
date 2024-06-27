@@ -1,9 +1,4 @@
-# go-pandora-pay
-
-PandoraPay blockchain in go
-
-The main design pattern that has been taken in consideration is to be **dead-simple**. A source code that is simple is
-bug free and easy to be developed and improved over time.
+# MoltenChain
 
 ### DOCS
 
@@ -20,8 +15,6 @@ bug free and easy to be developed and improved over time.
 [Assets](/docs/assets.md)
 
 [Transactions](/docs/transactions.md)
-
-[Master Thesis: Privacy-Preserving and Horizontally Scalable Blockchain using Zero Knowledge and Distributed Computing](/docs/master-thesis-privacy-preserving-and-horizontally-scalable-blockchain-using-zero-knowledge-and-distributed-computing.pdf)
 
 ## Status of Blockchain implementation:
 
@@ -150,17 +143,3 @@ The main reasons why UPPOS has been chosen over POS:
 1. state trie proofs to prove to light clients the state.
 2. creating macro blocks by selecting specific nodes for a meta chain. This allows light consensus.
 3. scalability. There will be research done to understand the best way to scale up the technology.
-
-# DISCLAIMER:
-
-This source code is released for research purposes only, with the intent of researching and studying a decentralized p2p
-network protocol.
-
-PANDORAPAY IS AN OPEN SOURCE COMMUNITY DRIVEN RESEARCH PROJECT. THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO
-WARRANTIES OF CORRECTNESS. IN NO EVENT SHALL THE CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES. USE AT YOUR OWN RISK.
-
-You may not use this source code for any illegal or unethical purpose; including activities which would give rise to
-criminal or civil liability.
-
-Under no event shall the Licensor be responsible for the activities, or any misdeeds, conducted by the Licensee.
