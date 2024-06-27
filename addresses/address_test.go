@@ -4,10 +4,10 @@ import (
 	"github.com/mr-tron/base58"
 	"github.com/stretchr/testify/assert"
 	"math/rand"
-	"pandora-pay/config"
-	"pandora-pay/config/config_coins"
-	"pandora-pay/cryptography"
-	"pandora-pay/helpers"
+	"mc/config"
+	"mc/config/config_coins"
+	"mc/cryptography"
+	"mc/helpers"
 	"testing"
 )
 
