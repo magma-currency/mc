@@ -3,9 +3,9 @@ package addresses
 import (
 	"bytes"
 	"errors"
-	"pandora-pay/config"
-	"pandora-pay/cryptography"
-	"pandora-pay/helpers/advanced_buffers"
+	"mc/config"
+	"mc/cryptography"
+	"mc/helpers/advanced_buffers"
 )
 
 //omitempty because of non-wif version
