@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"errors"
 	"github.com/mr-tron/base58"
-	"pandora-pay/config"
-	"pandora-pay/config/config_coins"
-	"pandora-pay/cryptography"
-	"pandora-pay/cryptography/crypto"
-	"pandora-pay/helpers/advanced_buffers"
+	"mc/config"
+	"mc/config/config_coins"
+	"mc/cryptography"
+	"mc/cryptography/crypto"
+	"mc/helpers/advanced_buffers"
 )
 
 type Address struct {
