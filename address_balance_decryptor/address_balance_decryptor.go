@@ -3,11 +3,11 @@ package address_balance_decryptor
 import (
 	"context"
 	"github.com/tevino/abool"
-	"pandora-pay/config"
-	"pandora-pay/cryptography/bn256"
-	"pandora-pay/cryptography/crypto"
-	"pandora-pay/cryptography/crypto/balance_decryptor"
-	"pandora-pay/helpers/generics"
+	"mc/config"
+	"mc/cryptography/bn256"
+	"mc/cryptography/crypto"
+	"mc/cryptography/crypto/balance_decryptor"
+	"mc/helpers/generics"
 )
 
 type AddressBalanceDecryptor struct {
