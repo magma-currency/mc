@@ -1,4 +1,4 @@
-module pandora-pay
+module mc
 
 go 1.19
 
