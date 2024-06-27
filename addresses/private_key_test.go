@@ -2,9 +2,9 @@ package addresses
 
 import (
 	"github.com/stretchr/testify/assert"
-	"pandora-pay/cryptography"
-	"pandora-pay/cryptography/crypto"
-	"pandora-pay/helpers"
+	"mc/cryptography"
+	"mc/cryptography/crypto"
+	"mc/helpers"
 	"testing"
 )
 
