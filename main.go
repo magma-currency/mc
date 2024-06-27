@@ -1,7 +1,7 @@
 package main
 
 import (
-	"pandora-pay/start"
+	"mc/start"
 )
 
 func main() {
