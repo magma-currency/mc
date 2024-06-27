@@ -2,7 +2,7 @@ package address_balance_decryptor
 
 import (
 	"context"
-	"pandora-pay/cryptography/bn256"
+	"mc/cryptography/bn256"
 )
 
 type addressBalanceDecryptorWorkResult struct {
