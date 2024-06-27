@@ -17,7 +17,7 @@ var (
 	CPU_THREADS        = 1
 	ARCHITECTURE       = ""
 	OS                 = ""
-	NAME               = "PANDORA PAY"
+	NAME               = "MoltenChain"
 	VERSION            = semver.MustParse("0.0.1-test.0")
 	VERSION_STRING     = VERSION.String()
 	BUILD_VERSION      = ""
@@ -32,13 +32,13 @@ const (
 
 const (
 	MAIN_NET_NETWORK_BYTE           uint64 = 0
-	MAIN_NET_NETWORK_BYTE_PREFIX           = "PANDORA" // must have 7 characters
+	MAIN_NET_NETWORK_BYTE_PREFIX           = "MOLTENC" // must have 7 characters
 	MAIN_NET_NETWORK_NAME                  = "MAIN"    // must have 7 characters
 	TEST_NET_NETWORK_BYTE           uint64 = 1033
-	TEST_NET_NETWORK_BYTE_PREFIX           = "PANTEST" // must have 7 characters
+	TEST_NET_NETWORK_BYTE_PREFIX           = "MOLTEST" // must have 7 characters
 	TEST_NET_NETWORK_NAME                  = "TEST"    // must have 7 characters
 	DEV_NET_NETWORK_BYTE            uint64 = 4255
-	DEV_NET_NETWORK_BYTE_PREFIX            = "PANDDEV" // must have 7 characters
+	DEV_NET_NETWORK_BYTE_PREFIX            = "MOLTDEV" // must have 7 characters
 	DEV_NET_NETWORK_NAME                   = "DEV"     // must have 7 characters
 	NETWORK_BYTE_PREFIX_LENGTH             = 7
 	NETWORK_TIMESTAMP_DRIFT_MAX     uint64 = 10
