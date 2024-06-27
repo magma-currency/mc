@@ -1,10 +1,10 @@
 package address_balance_decryptor
 
 import (
-	"pandora-pay/gui"
-	"pandora-pay/helpers/msgpack"
-	"pandora-pay/store"
-	"pandora-pay/store/store_db/store_db_interface"
+	"mc/gui"
+	"mc/helpers/msgpack"
+	"mc/store"
+	"mc/store/store_db/store_db_interface"
 	"time"
 )
 
