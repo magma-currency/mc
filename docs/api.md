@@ -1,8 +1,8 @@
-# PandoraPay API
+# MoltenChain API
 
 ## Summary of API
 
-There are three types of API in order to interact with PandoraPay DAEMON
+There are three types of API in order to interact with MoltenChain DAEMON
 
 Binary data is passed using **base64** not HEX! Passing GET arguments requires **URLEncode**.
 
@@ -79,9 +79,7 @@ List of all APIs
 | wallet/get-balances     | Get the balances (decrypted) of the requested wallet addresses                                                                                                                | ✓        | ✗         | ✓        | ✓              | !             | It will load the balances and decrypt them. The decryption is a brute force algorithm that will check all balances until is found. Having an 8 decimal balance will take a few minutes! Requires --auth-users.                                                                                                                                                                                   |
 | wallet/delete-address   | Delete an address from the wallet                                                                                                                                             | ✓        | ✗         | ✓        | ✓              | !             | Requires --auth-users                                                                                                                                                                                                                                                                                                                                                                            |
 | wallet/decrypt-tx       | Decrypt a transaction using wallet                                                                                                                                            | ✓        | ✗         | ✓        | ✓              | !             | Will decrypt zether transaction and return Recipient Ring Position (if you are the sender), shared decrypted message and decrypted amount using Whisper protocol. The decrypted tx amount is checked fast by verifying only that the whisper amounts are indeed the real values. In case the whisper amount is wrong, the call will return false and report the amount 0. Requires --auth-users  |
-| wallet/private-transfer | Create a private Transfer                                                                                                                                                     | ✗        | ✓         | ✓        | ✓              | !             | It will create and broadcast a private transaction. Requires --auth-users                                                                                                                                                                                                                                                                                                                        |
-
-
+| wallet/private-transfer | Create a private Transfer                                                                                                                                                     | ✗        | ✓         | ✓        | ✓              | !             | It will create and broadcast a private transaction. Requires --auth-users                                                                                                                                                                                                                                                                                                                        
 
 TODO: TCP
 
@@ -218,12 +216,3 @@ curl -X POST  \
 ```
 
 **WARNING!** When creating a private transfer, the balance must be decrypted for signing. The decryptor is a making brute force trying all possible balances starting from 0. If you have more than 8 decimals values, it could take even a few minutes to decrypt the balance is case it was changed.
-
-# DISCLAIMER:
-This source code is released for research purposes only, with the intent of researching and studying a decentralized p2p network protocol.
-
-PANDORAPAY IS AN OPEN SOURCE COMMUNITY DRIVEN RESEARCH PROJECT. THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS. IN NO EVENT SHALL THE CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES. USE AT YOUR OWN RISK.
-
-You may not use this source code for any illegal or unethical purpose; including activities which would give rise to criminal or civil liability.
-
-Under no event shall the Licensor be responsible for the activities, or any misdeeds, conducted by the Licensee.
