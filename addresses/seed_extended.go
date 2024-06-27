@@ -2,8 +2,8 @@ package addresses
 
 import (
 	"errors"
-	"pandora-pay/config"
-	"pandora-pay/cryptography"
+	"mc/config"
+	"mc/cryptography"
 )
 
 type SeedExtended struct {
