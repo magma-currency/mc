@@ -3,8 +3,8 @@ package addresses
 import (
 	"github.com/stretchr/testify/assert"
 	"math/rand"
-	"pandora-pay/cryptography"
-	"pandora-pay/helpers"
+	"mc/cryptography"
+	"mc/helpers"
 	"testing"
 )
 
