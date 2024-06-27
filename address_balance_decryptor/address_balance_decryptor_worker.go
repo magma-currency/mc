@@ -1,8 +1,8 @@
 package address_balance_decryptor
 
 import (
-	"pandora-pay/config"
-	"pandora-pay/cryptography/crypto/balance_decryptor"
+	"mc/config"
+	"mc/cryptography/crypto/balance_decryptor"
 	"sync/atomic"
 	"time"
 )
