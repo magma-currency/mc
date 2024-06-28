@@ -2,8 +2,8 @@ package gui
 
 import (
 	"fmt"
-	"pandora-pay/config"
-	"pandora-pay/gui/gui_interface"
+	"mc/config"
+	"mc/gui/gui_interface"
 )
 
 var GUI gui_interface.GUIInterface
