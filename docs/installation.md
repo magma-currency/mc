@@ -19,4 +19,9 @@ Go **1.18** is required as MoltenChain uses generics.
 
 ### Checking and Installing a specific go version
 1. `go env GOROOT`
-2. download from https://golang.org/doc/manage-install
+2.  Download from https://golang.org/doc/manage-install
+
+### CLONE THIS REPO
+1. `git clone (REPO URL)`
+2. `mv mc-main mc -r`
+3. `cd mc`
