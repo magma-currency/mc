@@ -1,10 +1,10 @@
 package chain_network
 
 import (
-	"pandora-pay/config"
-	"pandora-pay/network/api_implementation/api_common"
-	"pandora-pay/network/server/node_http"
-	"pandora-pay/network/websocks/connection"
+	"mc/config"
+	"mc/network/api_implementation/api_common"
+	"mc/network/server/node_http"
+	"mc/network/websocks/connection"
 )
 
 func DownloadMempool(conn *connection.AdvancedConnection) (err error) {
