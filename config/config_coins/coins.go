@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"math"
-	"pandora-pay/cryptography"
+	"mc/cryptography"
 )
 
 var BURN_PUBLIC_KEY = []byte{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xd, 0xe, 0xa, 0xd}
