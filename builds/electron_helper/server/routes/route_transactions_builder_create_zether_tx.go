@@ -3,8 +3,8 @@ package routes
 import (
 	"context"
 	"encoding/json"
-	"pandora-pay/builds/builds_data"
-	"pandora-pay/txs_builder/wizard"
+	"mc/builds/builds_data"
+	"mc/txs_builder/wizard"
 )
 
 func RouteTransactionsBuilderCreateZetherTx(req []byte) (any, error) {
