@@ -5,9 +5,9 @@ import (
 	"github.com/blang/semver/v4"
 	"math/big"
 	"math/rand"
-	"pandora-pay/config/arguments"
-	"pandora-pay/config/config_forging"
-	"pandora-pay/config/config_nodes"
+	"mc/config/arguments"
+	"mc/config/config_forging"
+	"mc/config/config_nodes"
 	"runtime"
 	"time"
 )
