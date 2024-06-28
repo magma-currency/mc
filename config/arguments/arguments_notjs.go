@@ -5,12 +5,12 @@ package arguments
 
 //use spaces for default https://github.com/docopt/docopt.go/issues/57
 
-var commands = `PANDORA PAY.
+var commands = `MOLTENCHAIN.
 
 Usage:
-  pandorapay [--pprof] [--network=network] [--debug] [--gui-type=type] [--forging] [--new-devnet] [--run-testnet-script] [--node-name=name] [--tcp-server-port=port] [--tcp-server-address=address] [--tcp-server-auto-tls-certificate] [--tcp-server-tls-cert-file=path] [--tcp-server-tls-key-file=path] [--instance=prefix] [--instance-id=id] [--set-genesis=genesis] [--create-new-genesis=args] [--store-wallet-type=type] [--store-chain-type=type] [--node-consensus=type] [--tcp-max-clients=limit] [--tcp-max-server-sockets=limit] [--node-provide-extended-info-app=bool] [--wallet-encrypt=args] [--wallet-decrypt=password] [--wallet-remove-encryption] [--wallet-export-shared-staked-address=args] [--wallet-import-secret-mnemonic=mnemonic] [--wallet-import-secret-entropy=entropy] [--hcaptcha-secret=args] [--faucet-testnet-enabled=args] [--delegator-enabled=bool] [--delegator-require-auth=bool] [--delegates-maximum=args] [--auth-users=args] [--light-computations] [--balance-decryptor-disable-init] [--balance-decryptor-table-size=size] [--tcp-connections-ready=threshold] [--exit] [--skip-init-sync] [--tcp-server-url=url] [--tcp-proxy=PROXY]
-  pandorapay -h | --help
-  pandorapay -v | --version
+  molten [--pprof] [--network=network] [--debug] [--gui-type=type] [--forging] [--new-devnet] [--run-testnet-script] [--node-name=name] [--tcp-server-port=port] [--tcp-server-address=address] [--tcp-server-auto-tls-certificate] [--tcp-server-tls-cert-file=path] [--tcp-server-tls-key-file=path] [--instance=prefix] [--instance-id=id] [--set-genesis=genesis] [--create-new-genesis=args] [--store-wallet-type=type] [--store-chain-type=type] [--node-consensus=type] [--tcp-max-clients=limit] [--tcp-max-server-sockets=limit] [--node-provide-extended-info-app=bool] [--wallet-encrypt=args] [--wallet-decrypt=password] [--wallet-remove-encryption] [--wallet-export-shared-staked-address=args] [--wallet-import-secret-mnemonic=mnemonic] [--wallet-import-secret-entropy=entropy] [--hcaptcha-secret=args] [--faucet-testnet-enabled=args] [--delegator-enabled=bool] [--delegator-require-auth=bool] [--delegates-maximum=args] [--auth-users=args] [--light-computations] [--balance-decryptor-disable-init] [--balance-decryptor-table-size=size] [--tcp-connections-ready=threshold] [--exit] [--skip-init-sync] [--tcp-server-url=url] [--tcp-proxy=PROXY]
+  molten -h | --help
+  molten -v | --version
 
 Options:
   -h --help                                          Show this screen.
