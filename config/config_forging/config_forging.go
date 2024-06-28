@@ -1,6 +1,6 @@
 package config_forging
 
-import "pandora-pay/config/arguments"
+import "mc/config/arguments"
 
 var (
 	FORGING_ENABLED = true
