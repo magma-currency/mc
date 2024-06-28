@@ -2,10 +2,10 @@ package server
 
 import (
 	"net/http"
-	"pandora-pay/builds/builds_data"
-	"pandora-pay/builds/electron_helper/server/routes"
-	"pandora-pay/config/arguments"
-	"pandora-pay/gui"
+	"mc/builds/builds_data"
+	"mc/builds/electron_helper/server/routes"
+	"mc/config/arguments"
+	"mc/gui"
 	"strconv"
 )
 
