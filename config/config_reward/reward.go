@@ -2,8 +2,8 @@ package config_reward
 
 import (
 	"math"
-	"pandora-pay/config"
-	"pandora-pay/config/config_coins"
+	"mc/config"
+	"mc/config/config_coins"
 )
 
 func GetRewardAt(blockHeight uint64) (reward uint64) {
