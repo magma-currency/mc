@@ -1,9 +1,9 @@
 package builds_data
 
 import (
-	"pandora-pay/blockchain/transactions/transaction/transaction_zether/transaction_zether_payload/transaction_zether_payload_script"
-	"pandora-pay/txs_builder/txs_builder_zether_helper"
-	"pandora-pay/txs_builder/wizard"
+	"mc/blockchain/transactions/transaction/transaction_zether/transaction_zether_payload/transaction_zether_payload_script"
+	"mc/txs_builder/txs_builder_zether_helper"
+	"mc/txs_builder/wizard"
 )
 
 type WalletInitializeBalanceDecryptorReq struct {
