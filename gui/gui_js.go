@@ -3,7 +3,7 @@
 
 package gui
 
-import gui_non_interactive "pandora-pay/gui/gui_non_interactive"
+import gui_non_interactive "mc/gui/gui_non_interactive"
 
 func create_gui() (err error) {
 	if GUI, err = gui_non_interactive.CreateGUINonInteractive(); err != nil {
