@@ -1,17 +1,17 @@
 package main
 
 import (
-	"pandora-pay/blockchain/transactions/transaction/transaction_data"
-	"pandora-pay/blockchain/transactions/transaction/transaction_simple"
-	"pandora-pay/blockchain/transactions/transaction/transaction_type"
-	"pandora-pay/blockchain/transactions/transaction/transaction_zether/transaction_zether_payload/transaction_zether_payload_script"
-	"pandora-pay/config"
-	"pandora-pay/config/config_coins"
-	"pandora-pay/cryptography"
-	"pandora-pay/network/api_code/api_code_types"
-	"pandora-pay/start"
-	"pandora-pay/wallet"
-	"pandora-pay/wallet/wallet_address"
+	"mc/blockchain/transactions/transaction/transaction_data"
+	"mc/blockchain/transactions/transaction/transaction_simple"
+	"mc/blockchain/transactions/transaction/transaction_type"
+	"mc/blockchain/transactions/transaction/transaction_zether/transaction_zether_payload/transaction_zether_payload_script"
+	"mc/config"
+	"mc/config/config_coins"
+	"mc/cryptography"
+	"mc/network/api_code/api_code_types"
+	"mc/start"
+	"mc/wallet"
+	"mc/wallet/wallet_address"
 	"sync"
 	"syscall/js"
 )
