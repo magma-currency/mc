@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 	"os/signal"
-	"pandora-pay/address_balance_decryptor"
-	"pandora-pay/builds/electron_helper/server"
-	"pandora-pay/builds/electron_helper/server/global"
-	"pandora-pay/config"
-	"pandora-pay/config/arguments"
-	"pandora-pay/gui"
+	"mc/address_balance_decryptor"
+	"mc/builds/electron_helper/server"
+	"mc/builds/electron_helper/server/global"
+	"mc/config"
+	"mc/config/arguments"
+	"mc/gui"
 	"syscall"
 )
 
