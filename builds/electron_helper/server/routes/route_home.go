@@ -3,7 +3,7 @@ package routes
 import (
 	"encoding/json"
 	"net/http"
-	"pandora-pay/config"
+	"mc/config"
 )
 
 func RouteHome(w http.ResponseWriter, r *http.Request) {
