@@ -1,8 +1,8 @@
 package config_stake
 
 import (
-	"pandora-pay/config/arguments"
-	"pandora-pay/config/config_coins"
+	"mc/config/arguments"
+	"mc/config/config_coins"
 )
 
 func GetRequiredStake(blockHeight uint64) (requiredStake uint64) {
