@@ -2,8 +2,8 @@ package routes
 
 import (
 	"context"
-	"pandora-pay/builds/builds_data"
-	"pandora-pay/cryptography/crypto/balance_decryptor"
+	"mc/builds/builds_data"
+	"mc/cryptography/crypto/balance_decryptor"
 )
 
 func RouteWalletInitializeBalanceDecryptor(req *builds_data.WalletInitializeBalanceDecryptorReq) (any, error) {
