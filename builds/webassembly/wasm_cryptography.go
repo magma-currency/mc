@@ -2,9 +2,9 @@ package main
 
 import (
 	"encoding/base64"
-	"pandora-pay/builds/webassembly/webassembly_utils"
-	"pandora-pay/cryptography"
-	"pandora-pay/cryptography/crypto"
+	"mc/builds/webassembly/webassembly_utils"
+	"mc/cryptography"
+	"mc/cryptography/crypto"
 	"syscall/js"
 )
 
