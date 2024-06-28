@@ -2,11 +2,11 @@ package main
 
 import (
 	"encoding/base64"
-	"pandora-pay/app"
-	"pandora-pay/blockchain/transactions/transaction"
-	"pandora-pay/builds/webassembly/webassembly_utils"
-	"pandora-pay/helpers"
-	"pandora-pay/helpers/advanced_buffers"
+	"mc/app"
+	"mc/blockchain/transactions/transaction"
+	"mc/builds/webassembly/webassembly_utils"
+	"mc/helpers"
+	"mc/helpers/advanced_buffers"
 	"syscall/js"
 )
 
