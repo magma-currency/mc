@@ -1,6 +1,6 @@
 package config_asset_fee
 
-import "pandora-pay/config/config_coins"
+import "mc/config/config_coins"
 
 func GetRequiredAssetFee(blockHeight uint64) (requiredAssetFee uint64) {
 
