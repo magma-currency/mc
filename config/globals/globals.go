@@ -1,8 +1,8 @@
 package globals
 
 import (
-	"pandora-pay/helpers/events"
-	"pandora-pay/helpers/generics"
+	"mc/helpers/events"
+	"mc/helpers/generics"
 )
 
 // arguments
