@@ -5,9 +5,9 @@ package gui
 
 import (
 	"errors"
-	"pandora-pay/config/arguments"
-	"pandora-pay/gui/gui_interactive"
-	"pandora-pay/gui/gui_non_interactive"
+	"mc/config/arguments"
+	"mc/gui/gui_interactive"
+	"mc/gui/gui_non_interactive"
 )
 
 func create_gui() (err error) {
