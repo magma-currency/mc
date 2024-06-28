@@ -5,7 +5,7 @@ package config
 
 import (
 	"os"
-	"pandora-pay/config/arguments"
+	"mc/config/arguments"
 	"strconv"
 )
 
