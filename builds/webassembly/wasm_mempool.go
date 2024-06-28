@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/base64"
 	"encoding/json"
-	"pandora-pay/app"
-	"pandora-pay/blockchain/transactions/transaction"
-	"pandora-pay/builds/webassembly/webassembly_utils"
-	"pandora-pay/mempool"
-	"pandora-pay/network/websocks/connection/advanced_connection_types"
+	"mc/app"
+	"mc/blockchain/transactions/transaction"
+	"mc/builds/webassembly/webassembly_utils"
+	"mc/mempool"
+	"mc/network/websocks/connection/advanced_connection_types"
 	"syscall/js"
 )
 
