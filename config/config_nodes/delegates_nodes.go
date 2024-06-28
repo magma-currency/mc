@@ -1,7 +1,7 @@
 package config_nodes
 
 import (
-	"pandora-pay/config/arguments"
+	"mc/config/arguments"
 	"strconv"
 )
 
