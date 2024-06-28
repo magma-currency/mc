@@ -3,13 +3,13 @@ package main
 import (
 	"encoding/json"
 	"errors"
-	"pandora-pay/addresses"
-	"pandora-pay/app"
-	"pandora-pay/blockchain/transactions/transaction/transaction_simple"
-	"pandora-pay/blockchain/transactions/transaction/transaction_simple/transaction_simple_extra"
-	"pandora-pay/builds/webassembly/webassembly_utils"
-	"pandora-pay/cryptography/crypto"
-	"pandora-pay/txs_builder/wizard"
+	"mc/addresses"
+	"mc/app"
+	"mc/blockchain/transactions/transaction/transaction_simple"
+	"mc/blockchain/transactions/transaction/transaction_simple/transaction_simple_extra"
+	"mc/builds/webassembly/webassembly_utils"
+	"mc/cryptography/crypto"
+	"mc/txs_builder/wizard"
 	"syscall/js"
 )
 
