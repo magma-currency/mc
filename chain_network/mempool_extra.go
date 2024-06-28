@@ -2,16 +2,16 @@ package chain_network
 
 import (
 	"context"
-	"pandora-pay/blockchain"
-	"pandora-pay/blockchain/transactions/transaction"
-	"pandora-pay/config"
-	"pandora-pay/helpers/recovery"
-	"pandora-pay/mempool"
-	"pandora-pay/network/api_implementation/api_common"
-	"pandora-pay/network/network_config"
-	"pandora-pay/network/server/node_http"
-	"pandora-pay/network/websocks"
-	"pandora-pay/network/websocks/connection/advanced_connection_types"
+	"mc/blockchain"
+	"mc/blockchain/transactions/transaction"
+	"mc/config"
+	"mc/helpers/recovery"
+	"mc/mempool"
+	"mc/network/api_implementation/api_common"
+	"mc/network/network_config"
+	"mc/network/server/node_http"
+	"mc/network/websocks"
+	"mc/network/websocks/connection/advanced_connection_types"
 	"time"
 )
 
