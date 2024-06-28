@@ -1,12 +1,12 @@
 package main
 
 import (
-	"pandora-pay/builds/webassembly/webassembly_utils"
-	"pandora-pay/config"
-	"pandora-pay/config/config_assets"
-	"pandora-pay/config/config_coins"
-	"pandora-pay/config/config_reward"
-	"pandora-pay/config/config_stake"
+	"mc/builds/webassembly/webassembly_utils"
+	"mc/config"
+	"mc/config/config_assets"
+	"mc/config/config_coins"
+	"mc/config/config_reward"
+	"mc/config/config_stake"
 	"strconv"
 	"syscall/js"
 )
