@@ -3,12 +3,12 @@
 
 package arguments
 
-var commands = `PANDORA PAY WASM.
+var commands = `MOLTENCHAIN WASM.
 
 Usage:
-  pandorapay [--pprof] [--version] [--network=network] [--debug] [--gui-type=type] [--forging] [--new-devnet] [--node-name=name] [--set-genesis=genesis] [--store-wallet-type=type] [--store-chain-type=type] [--node-consensus=type] [--tcp-max-clients=limit] [--node-provide-extended-info-app=bool] [--wallet-encrypt=args] [--wallet-decrypt=password] [--wallet-remove-encryption] [--wallet-export-shared-staked-address=args] [--wallet-import-secret-mnemonic=mnemonic] [--wallet-import-secret-entropy=entropy] [--instance=prefix] [--instance-id=id] [--balance-decryptor-disable-init] [--tcp-connections-ready=threshold] [--exit]
-  pandorapay -h | --help
-  pandorapay -v | --version
+  molten [--pprof] [--version] [--network=network] [--debug] [--gui-type=type] [--forging] [--new-devnet] [--node-name=name] [--set-genesis=genesis] [--store-wallet-type=type] [--store-chain-type=type] [--node-consensus=type] [--tcp-max-clients=limit] [--node-provide-extended-info-app=bool] [--wallet-encrypt=args] [--wallet-decrypt=password] [--wallet-remove-encryption] [--wallet-export-shared-staked-address=args] [--wallet-import-secret-mnemonic=mnemonic] [--wallet-import-secret-entropy=entropy] [--instance=prefix] [--instance-id=id] [--balance-decryptor-disable-init] [--tcp-connections-ready=threshold] [--exit]
+  molten -h | --help
+  molten -v | --version
 
 Options:
   -h --help                                          Show this screen.
