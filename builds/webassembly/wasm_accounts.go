@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/base64"
-	"pandora-pay/addresses"
-	"pandora-pay/builds/webassembly/webassembly_utils"
+	"mc/addresses"
+	"mc/builds/webassembly/webassembly_utils"
 	"syscall/js"
 )
 
