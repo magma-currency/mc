@@ -1,7 +1,7 @@
 package events
 
 import (
-	"pandora-pay/helpers/multicast"
+	"mc/helpers/multicast"
 )
 
 type EventData[T any] struct {
