@@ -2,7 +2,7 @@ package generics
 
 import (
 	"golang.org/x/exp/constraints"
-	"pandora-pay/helpers/msgpack"
+	"mc/helpers/msgpack"
 )
 
 // usage: Zero(T)()
