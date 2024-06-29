@@ -5,8 +5,8 @@ import (
 	ui "github.com/gizak/termui/v3"
 	"github.com/gizak/termui/v3/widgets"
 	"os"
-	"pandora-pay/gui/gui_logger"
-	"pandora-pay/helpers/generics"
+	"mc/gui/gui_logger"
+	"mc/helpers/generics"
 	"time"
 )
 
