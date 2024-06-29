@@ -6,9 +6,9 @@ import (
 	"errors"
 	"math"
 	"math/big"
-	"pandora-pay/config/config_coins"
-	"pandora-pay/cryptography"
-	"pandora-pay/cryptography/bn256"
+	"mc/config/config_coins"
+	"mc/cryptography"
+	"mc/cryptography/bn256"
 )
 
 type BufferReader struct {
