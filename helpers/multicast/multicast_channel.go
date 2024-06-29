@@ -2,8 +2,8 @@ package multicast
 
 import (
 	"golang.org/x/exp/slices"
-	"pandora-pay/helpers/linked_list"
-	"pandora-pay/helpers/recovery"
+	"mc/helpers/linked_list"
+	"mc/helpers/recovery"
 	"sync"
 )
 
