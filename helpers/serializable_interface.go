@@ -1,6 +1,6 @@
 package helpers
 
-import "pandora-pay/helpers/advanced_buffers"
+import "mc/helpers/advanced_buffers"
 
 type SerializableInterface interface {
 	Validate() error
