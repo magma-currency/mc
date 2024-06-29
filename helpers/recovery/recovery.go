@@ -1,7 +1,7 @@
 package recovery
 
 import (
-	"pandora-pay/gui"
+	"mc/gui"
 	"runtime/debug"
 )
 
