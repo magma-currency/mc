@@ -6,9 +6,9 @@ package debugging_pprof
 import (
 	"fmt"
 	"net/http"
-	_ "net/http/pprof"
-	"pandora-pay/config"
-	"pandora-pay/helpers/recovery"
+	"net/http/pprof"
+	"mc/config"
+	"mc/helpers/recovery"
 	"strconv"
 )
 
