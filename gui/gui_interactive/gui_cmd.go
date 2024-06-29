@@ -7,7 +7,7 @@ import (
 	"fmt"
 	ui "github.com/gizak/termui/v3"
 	"github.com/gizak/termui/v3/widgets"
-	"pandora-pay/gui/gui_interface"
+	"mc/gui/gui_interface"
 	"path"
 	"strconv"
 	"sync"
