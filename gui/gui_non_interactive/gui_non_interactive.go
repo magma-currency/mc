@@ -2,7 +2,7 @@ package gui_non_interactive
 
 import (
 	"context"
-	"pandora-pay/gui/gui_logger"
+	"mc/gui/gui_logger"
 	"runtime"
 	"sync"
 )
