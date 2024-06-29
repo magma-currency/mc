@@ -1,7 +1,7 @@
 package linked_list
 
 import (
-	"pandora-pay/helpers/generics"
+	"mc/helpers/generics"
 )
 
 type linkedListItem[T any] struct {
