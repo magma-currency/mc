@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"encoding/binary"
 	"math"
-	"pandora-pay/config/config_coins"
+	"mc/config/config_coins"
 )
 
 type BufferWriter struct {
