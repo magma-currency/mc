@@ -2,8 +2,8 @@ package gui_interactive
 
 import (
 	"github.com/gizak/termui/v3/widgets"
-	"pandora-pay/config"
-	"pandora-pay/gui/gui_interface"
+	"mc/config"
+	"mc/gui/gui_interface"
 	"strings"
 	"time"
 )
