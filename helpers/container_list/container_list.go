@@ -1,7 +1,7 @@
 package container_list
 
 import (
-	"pandora-pay/helpers/generics"
+	"mc/helpers/generics"
 	"sync"
 )
 
